@@ -14,6 +14,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Avatar from '@material-ui/core/Avatar';
 import { deepPurple } from '@material-ui/core/colors';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import WatchLaterIcon from '@material-ui/icons/WatchLater';
 import {
   Switch,
   Route,
@@ -55,7 +56,7 @@ export default function MainMenu(props) {
               </Link>
               <NavLink to="/watch-later">
                 <ListItem button key='Watch Later' >
-                  <ListItemIcon><HomeIcon /></ListItemIcon>
+                  <ListItemIcon><WatchLaterIcon /></ListItemIcon>
                   <ListItemText primary='Watch Later' />
                 </ListItem>
               </NavLink>
